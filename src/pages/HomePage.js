@@ -98,6 +98,8 @@ const HomePage = () => {
     getData();
   }, [getData]);
 
+  console.log(cars);
+
   return (
     <Container maxWidth="lg" sx={{ pb: 3 }}>
       <ConfirmModal
